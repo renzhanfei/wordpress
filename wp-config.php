@@ -92,6 +92,9 @@ if ( WP_DEBUG ) {
 
     // Use dev versions of core JS and CSS files (only needed if you are modifying these core files)
     define( 'SCRIPT_DEBUG', true );
+    
+    // The SAVEQUERIES definition saves the database queries to an array and that array can be displayed to help analyze those queries. The constant defined as true causes each query to be saved, how long that query took to execute, and what function called it. The array is stored in the global $wpdb->queries.
+    define( 'SAVEQUERIES', true );
 }
 
 /* That's all, stop editing! Happy publishing. */
