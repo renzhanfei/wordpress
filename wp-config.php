@@ -103,7 +103,7 @@ if ( WP_DEBUG ) {
 //define( 'DISALLOW_FILE_MODS', true);
 //define( 'WP_CACHE', true );
 define( 'FORCE_SSL_ADMIN', true );
-
+//define('WP_ALLOW_MULTISITE', true);
 /**
  * Cleanup Image Edits
  */
