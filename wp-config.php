@@ -97,6 +97,8 @@ if ( WP_DEBUG ) {
     define( 'SAVEQUERIES', true );
 }
 
+define( 'WP_CACHE', true );
+
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */
