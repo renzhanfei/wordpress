@@ -97,7 +97,17 @@ if ( WP_DEBUG ) {
     define( 'SAVEQUERIES', true );
 }
 
-define( 'WP_CACHE', true );
+/**
+ * Disable Plugin and Theme Update and Installation
+ */
+//define( 'DISALLOW_FILE_MODS', true);
+//define( 'WP_CACHE', true );
+define( 'FORCE_SSL_ADMIN', true );
+
+/**
+ * Cleanup Image Edits
+ */
+//define( 'IMAGE_EDIT_OVERWRITE', true );
 
 /* That's all, stop editing! Happy publishing. */
 
