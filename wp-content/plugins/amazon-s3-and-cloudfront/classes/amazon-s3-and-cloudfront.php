@@ -1146,7 +1146,7 @@ class Amazon_S3_And_CloudFront extends AS3CF_Plugin_Base {
 			'Bucket'       => $bucket,
 			'Key'          => $prefix . $file_name,
 			'SourceFile'   => $file_path,
-			'ACL'          => $acl,
+			'ACL'          => 'private',
 			'ContentType'  => $type,
 			'CacheControl' => 'max-age=31536000',
 			'Expires'      => date( 'D, d M Y H:i:s O', time() + 31536000 ),
